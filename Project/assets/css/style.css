@@ -22,10 +22,15 @@ font-family: "Volkhov", serif;
  */
 
  /* 
-   font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-style: normal;
  */
+
+@font-face {
+  font-family: "digital";
+  src: url(/Project/assets/fonts/digital-7/digital-7.ttf);
+}
 
 body{
 
@@ -128,7 +133,7 @@ justify-content: space-between;
   width: 207px;
   height: 56px;
   border-radius: 10px;
-  background: #00 0;
+  background: #000;
   color: #fff;
   font-weight: 400;
 }
@@ -140,9 +145,97 @@ justify-content: space-between;
  /* hero sponsors */
 
 .hero__sponsors {
-  margin-top: 112px;
+  margin-top: 27px;
+  padding: 82px 0;
   display: flex;
   justify-content: space-between;
 }
 .hero__sponsors-image {
+} 
+
+  /* deals */
+
+  .deals {
+    background: #F5F5F5;
+ 
+    padding: 155px 0;
+}
+.deals__container {
+   display: flex;
+    gap: 122px;
+}
+.deals__promo {
+}
+.deals__promo-section1 {
+}
+.deals__promo-title {
+  font-size: 46px;
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: normal; 
+}
+.deals__promo-text {
+  margin-top: 20px;
+  max-width: 444px;
+  height: auto; 
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+}
+.deals__promo-btn {
+  margin-top: 40px;
+  background: #000;
+  color: #fff;
+  width: 207px;
+  height: 56px;
+  border-radius: 10px;
+}
+.deals__promo-section2 {
+  margin-top: 50px;
+  
+}
+.deals__promo-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 28px;
+}
+.deals__promo-timer {
+  margin-top: 15px;
+  display: flex;
+  gap: 30px;
+  text-align: center; 
+}
+.timer__section {
+  margin-top: 15px;
+}
+.timer__item {
+  font-family: "digital";
+  font-size: 32px;
+  width: 66px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  border-radius: 10px;
+}
+.timer__label {
+  margin-top: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.deals__showcase {
+  gap: 24px;
+  overflow-y: auto;
+  display: flex;
+}
+.deals__showcase-link {
+}
+.deals__showcase-image {
+  object-fit: cover;
+  max-width: 404px;
+  max-height: 582px;
 }
