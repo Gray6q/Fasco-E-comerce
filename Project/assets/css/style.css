@@ -179,11 +179,16 @@ justify-content: space-between;
   max-width: 444px;
   height: auto; 
   font-size: 16px;
+  color: #8A8A8A;
+  line-height: 26px;
   font-family: "Poppins", sans-serif;
   font-weight: 250;
   font-style: normal;
 }
 .deals__promo-btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   margin-top: 40px;
   background: #000;
   color: #fff;
@@ -197,9 +202,10 @@ justify-content: space-between;
 }
 .deals__promo-subtitle {
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-size: 28px;
+  color: #484848;
 }
 .deals__promo-timer {
   margin-top: 15px;
@@ -213,8 +219,8 @@ justify-content: space-between;
 .timer__item {
   font-family: "digital";
   font-size: 32px;
-  width: 66px;
-  height: 66px;
+  width: 76px;
+  height: 76px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -226,6 +232,8 @@ justify-content: space-between;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
+  color: #484848;
+  font-size: 24px;
 }
 .deals__showcase {
   gap: 24px;
