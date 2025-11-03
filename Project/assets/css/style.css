@@ -85,8 +85,7 @@ body{
   /* Main */
 
   .main {
-margin: 0 auto;
-margin-top: 94px;
+  margin-top: 94px;
 }
 .hero {
   font-family: "Poppins", sans-serif;
@@ -153,16 +152,17 @@ justify-content: space-between;
 .hero__sponsors-image {
 } 
 
-  /* deals */
+  /* deals */ 
 
   .deals {
     background: #F5F5F5;
- 
-    padding: 155px 0;
-}
-.deals__container {
-   display: flex;
-    gap: 122px;
+  }
+  .deals__container {
+  padding: 155px 0;
+  max-width: 1281px;
+  margin: 0 auto;
+  display: flex;
+  gap: 122px;
 }
 .deals__promo {
 }
@@ -246,4 +246,86 @@ justify-content: space-between;
   object-fit: cover;
   max-width: 404px;
   max-height: 582px;
+}
+
+  /* arivals */
+
+  .arivals {
+    margin-top: 162px;
+}
+
+.arivals__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.arivals__header-title {
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 46px;
+}
+.arivals__header_text {
+  margin-top: 20px; 
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 614px;
+  height: auto;
+}
+
+  /* arivals menu */
+
+.arivals__menu {
+  margin-top: 50px;
+}
+.arivals__menu-list {
+  display: flex;
+  gap: 30px;
+}
+.arivals__menu-item, .arivals__menu-item-active {
+  width: 207px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  background: #FAFAFA;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.arivals__menu-item-active{
+background: #000;
+}
+.arivals__menu-item-link {
+  color: #000;
+}
+.arivals__menu-item-link-active {
+ color: #fff;
+}
+
+.active {
+  display: flex;
+}
+.arivals__products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 150px;
+  width: 386px;
+  height: 438px;
+  
+}
+.arivals__product-card {
+  
+}
+.arivals__product-image {
+}
+.arivals__product-title {
+}
+.arivals__product-price {
 }

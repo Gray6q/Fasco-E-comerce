@@ -21,8 +21,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <div class="container__size">
-      <header class="header">
+    <header class="header">
+      <div class="container__size">
         <h3 class="header__logo">FASCO</h3>
         <nav class="header__nav">
           <ul class="header__nav-list">
@@ -34,10 +34,12 @@
           </ul>
           <button class="header__btn header__btn--signup">Sign Up</button>
         </nav>
-      </header>
+      </div>
+    </header>
 
-      <main class="main">
-        <section class="hero">
+    <main class="main">
+      <section class="hero">
+        <div class="container__size">
           <article class="hero__baner">
             <div class="hero__baner-left">
               <img src="assets/img/1Baner.svg" class="hero__baner-right-image" />
@@ -59,52 +61,118 @@
             <img src="assets/img/calvin klein.svg" class="hero__sponsors-image" />
             <img src="assets/img/denim.svg" class="hero__sponsors-image" />
           </article>
-        </section>
-        </div>  
+        </div>
+      </section>
 
-        <!-- deals -->
+      <!-- deals -->
 
-        <section class="deals">
-          <div class="container__size">
-            <div class="deals__container">
-          <article class="deals__promo">
-            <div class="deals__promo-section1">
-              <h3 class="deals__promo-title">Deals Of The Month</h3>
-              <p class="deals__promo-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin</p>
-              <button class="deals__promo-btn">Buy Now</button>
-            </div>
+      <section class="deals">
+        <div class="container__size">
+          <div class="deals__container">
+            <article class="deals__promo">
+              <div class="deals__promo-section1">
+                <h3 class="deals__promo-title">Deals Of The Month</h3>
+                <p class="deals__promo-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin</p>
+                <button class="deals__promo-btn">Buy Now</button>
+              </div>
 
-            <div class="deals__promo-section2">
-              <h5 class="deals__promo-subtitle">Hurry, Before It's Too Late!</h5>
-              <div class="deals__promo-timer">
-                <div class="timer__section">
-                  <p class="timer__item">02</p>
-                  <p class="timer__label">Days</p>
-                </div>
-                <div class="timer__section">
-                  <p class="timer__item">06</p>
-                  <p class="timer__label">Hr</p>
-                </div>
-                <div class="timer__section">
-                  <p class="timer__item">05</p>
-                  <p class="timer__label">Mins</p>
-                </div>
-                <div class="timer__section">
-                  <p class="timer__item">30</p>
-                  <p class="timer__label">Sec</p>
+              <div class="deals__promo-section2">
+                <h5 class="deals__promo-subtitle">Hurry, Before It's Too Late!</h5>
+                <div class="deals__promo-timer">
+                  <div class="timer__section">
+                    <p class="timer__item">02</p>
+                    <p class="timer__label">Days</p>
+                  </div>
+                  <div class="timer__section">
+                    <p class="timer__item">06</p>
+                    <p class="timer__label">Hr</p>
+                  </div>
+                  <div class="timer__section">
+                    <p class="timer__item">05</p>
+                    <p class="timer__label">Mins</p>
+                  </div>
+                  <div class="timer__section">
+                    <p class="timer__item">30</p>
+                    <p class="timer__label">Sec</p>
+                  </div>
                 </div>
               </div>
+            </article>
+            <article class="deals__showcase">
+              <a href="#" class="deals__showcase-link"><img src="assets/img/showcase1.svg" class="deals__showcase-image" /></a>
+              <a href="#" class="deals__showcase-link"><img src="assets/img/showcase2.svg" class="deals__showcase-image" /></a>
+              <a href="#" class="deals__showcase-link"><img src="assets/img/showcase3.svg" class="deals__showcase-image" /></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- new arrivals -->
+
+      <section class="arivals">
+        <div class="container__size">
+          <div class="arivals__header">
+            <h2 class="arivals__header-title">New Arivals</h2>
+            <p class="arivals__header_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin</p>
+          </div>
+          <nav class="arivals__menu">
+            <ul class="arivals__menu-list">
+              <li class="arivals__menu-item"><a href="" class="arivals__menu-item-link">Men’s Fashion</a></li>
+              <li class="arivals__menu-item-active"><a href="" class="arivals__menu-item-link-active">Women’s Fashion</a></li>
+              <li class="arivals__menu-item"><a href="" class="arivals__menu-item-link">Women Accessories</a></li>
+              <li class="arivals__menu-item"><a href="" class="arivals__menu-item-link">Men Accessories</a></li>
+              <li class="arivals__menu-item"><a href="" class="arivals__menu-item-link">Discount Deals</a></li>
+            </ul>
+          </nav>
+          <article class="arivals__products">
+            <div class="arivals__product-card">
+              <img src="assets/img/Images.svg" class="arivals__product-image" />
+              <h4 class="arivals__product-title">Stylish Winter Jacket</h4>
+              <p class="arivals__product-price">$120.00</p>
+            </div>
+
+            <!-- 2 -->
+
+            <div class="arivals__product-card">
+              <img src="assets/img/Images(1).svg" class="arivals__product-image" />
+              <h4 class="arivals__product-title">Stylish Winter Jacket</h4>
+              <p class="arivals__product-price">$120.00</p>
+            </div>
+
+            <!-- 3 -->
+
+            <div class="arivals__product-card">
+              <img src="assets/img/Images(2).svg" class="arivals__product-image" />
+              <h4 class="arivals__product-title">Stylish Winter Jacket</h4>
+              <p class="arivals__product-price">$120.00</p>
+            </div>
+
+            <!-- 4 -->
+
+            <div class="arivals__product-card">
+              <img src="assets/img/Images(3).svg" class="arivals__product-image" />
+              <h4 class="arivals__product-title">Stylish Winter Jacket</h4>
+              <p class="arivals__product-price">$120.00</p>
+            </div>
+
+            <!-- 5 -->
+
+            <div class="arivals__product-card">
+              <img src="assets/img/Images(4).svg" class="arivals__product-image" />
+              <h4 class="arivals__product-title">Stylish Winter Jacket</h4>
+              <p class="arivals__product-price">$120.00</p>
+            </div>
+
+            <!-- 6 -->
+
+            <div class="arivals__product-card">
+              <img src="assets/img/Images(5).svg" class="arivals__product-image" />
+              <h4 class="arivals__product-title">Stylish Winter Jacket</h4>
+              <p class="arivals__product-price">$120.00</p>
             </div>
           </article>
-          <article class="deals__showcase">
-            <a href="#" class="deals__showcase-link"><img src="assets/img/showcase1.svg"  class="deals__showcase-image"></a>
-            <a href="#" class="deals__showcase-link"><img src="assets/img/showcase2.svg"  class="deals__showcase-image"></a>
-            <a href="#" class="deals__showcase-link"><img src="assets/img/showcase3.svg"  class="deals__showcase-image"></a>
-          </article>
-          </div>
-          </div>
-        </section>
-      </main>
-    
+        </div>
+      </section>
+    </main>
   </body>
 </html>
