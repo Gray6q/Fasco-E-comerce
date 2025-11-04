@@ -320,8 +320,7 @@ background: #000;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 150px;
-  width: 386px;
-  height: 438px;
+
   gap: 61px;
   
 }
@@ -361,4 +360,12 @@ background: #000;
   align-items: center;
   justify-content: center;
   
+}
+
+.arivals__product-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.arivals__product-btn {
 }
