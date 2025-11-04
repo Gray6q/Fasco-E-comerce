@@ -21,8 +21,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <header class="header">
-      <div class="container__size">
+    <div class="container__size">
+      <header class="header">
         <h3 class="header__logo">FASCO</h3>
         <nav class="header__nav">
           <ul class="header__nav-list">
@@ -34,8 +34,8 @@
           </ul>
           <button class="header__btn header__btn--signup">Sign Up</button>
         </nav>
-      </div>
-    </header>
+      </header>
+    </div>
 
     <main class="main">
       <section class="hero">
@@ -107,7 +107,7 @@
         </div>
       </section>
 
-      <!-- new arrivals -->
+      <!-- arrivals -->
 
       <section class="arivals">
         <div class="container__size">
@@ -174,9 +174,30 @@
           <div class="arivals__product-wrapper">
             <button class="arivals__product-btn">View More</button>
           </div>
-          
         </div>
       </section>
+
+      <!-- colection -->
+
+      <div class="container__size">
+        <section class="colection">
+          <article class="colection__presentation">
+            <img src="assets/img/colection.svg" class="colection__presentation-image" />
+          </article>
+          <article class="colection__description">
+            <h6 class="colection__description-type">Women Collection</h6>
+            <h3 class="colection__description-title">Peaky Blinders</h3>
+            <p class="colection__description-about">DESCRIPTION</p>
+            <p class="colection__description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis.</p>
+            <div class="colection__description-size-wrapper">
+              <p class="colection__description-size">Size:</p>
+              <p class="colection__description-size-num">M</p>
+            </div>
+            <p class="colection__description-price">$100.00</p>
+            <button class="colection__description-btn">Buy Now</button>
+          </article>
+        </section>
+      </div>
     </main>
   </body>
 </html>
