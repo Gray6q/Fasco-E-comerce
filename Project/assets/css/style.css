@@ -372,71 +372,7 @@ background: #000;
 /* colection */
 
 .colection {
-  display: flex;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  gap: 20px;
-}
-.colection__presentation {
-background: #f8f8f8;
-}
-.colection__presentation-image {
-  width: 100vh;
-}
-.colection__description {
-}
-.colection__description-type {
-  font-size: 16px;
-}
-.colection__description-title {
-  margin-top: 20px;
-  font-family: "Volkhov", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 46px;
-}
-.colection__description-about {
-  font-size: 16px;
-  border-bottom: #000 solid 1px;
-  display: inline;
-}
-.colection__description-text {
-  margin-top: 20px;
-  font-size: 16px;
-  color: #767676;
-}
-.colection__description-size-wrapper {
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-.colection__description-size {
   
 }
-.colection__description-size-num {
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 53px;
-  height: 28px;
-  background: #000;
-  color: #fff;
-  border-radius: 10px;
-}
-.colection__description-price {
-  margin-top: 20px;
-  font-size: 28px;
-  font-weight: 500;
-}
-.colection__description-btn {
-  margin-top: 20px;
-  width: 207px;
-  height: 56px;
-  background: #000;
-  color: #fff;
-  border-radius: 10px;
-
+.container__size {
 }
